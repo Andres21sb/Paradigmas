@@ -60,7 +60,7 @@ const TextEditor = ({ keywordsList }) => {
         className="custom-textarea"
         value={inputText}
         onChange={handleInputChange}
-        placeholder=""
+        placeholder="Write your code here..."
       />
       <textarea id="TO" className="custom-textarea bg-black text-white" readOnly value={outputText} />
       <div className="custom-buttons">

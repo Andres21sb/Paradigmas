@@ -27,9 +27,15 @@ app.post('/process', (req, res) => {
 
 // About endpoint (for future implementation)
 app.get('/about', (req, res) => {
-  res.send('About page (to be implemented)');
+  const aboutInfo = {
+    name: "OFS Compiler",
+    version: "1.0",
+    description: "First demo of the compiler.",
+    authors: "\nJairo Castillo \n Andres Fallas \n Andres Mendez \n Mauricio Vargas",
+    date: new Date().toISOString()
+  };
+  res.json(aboutInfo);
 });
-
 
 
 // Load the keywords list from a JSON file

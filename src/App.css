@@ -22,3 +22,13 @@
   margin-top: 1%;  
 
 }
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.about-button, .options-button {
+  margin: 0 10px; 
+}
