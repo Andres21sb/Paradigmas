@@ -17,7 +17,6 @@ function App() {
       .then((data) => setKeywordsList(data.keywords))
       .catch((error) => console.error('Error fetching keywords:', error));
   }, []); 
-
   return (
     <div className="App">
       <div className='header-box'>
@@ -30,7 +29,6 @@ function App() {
       <TextEditor keywordsList={keywordsList} />
     </div>
   );
-  
 }
 
 export default App;

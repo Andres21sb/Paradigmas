@@ -2,8 +2,6 @@
 import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import {API_SERVER_URL} from './Url';
-
-
 function aboutButton() {
   const [showModal, setShowModal] = useState(false);
   const [data, setData] = useState({});
